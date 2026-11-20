@@ -1,18 +1,40 @@
-> ### 🏗️ UNDER CONSTRUCTION — SPOKEN-WORD PREPRINT STUDIO & ANTI-SYCOPHANCY LINTER (PRE-ALPHA)
-> **Status:** Active Architectural Scaffolding & Guardrail Prototyping • Zero Dependencies • ARM64 / Termux Ready  
-> **Primary Target Preprint:** Hedling, B. S. (2026). *Beyond Bolted-On Screen Readers: Narrative Phenomenology, the RNIB Roundhouse Sensory Dark, and Perceptual-Cognitive Unity (Rasa-Darśan)*. Zenodo. [`DOI: 10.5281/zenodo.24393275`](https://doi.org)
+> ### ✅ RELEASE v1.0.0 — SPOKEN-WORD PREPRINT STUDIO & ANTI-SYCOPHANCY LINTER (EXPERIMENTAL)
+> **Status:** `v1.0.0` Verified Guardrails • ARM64 / Termux Ready  
+> **Primary Target Preprint:** Hedling, B. S. (2026). *Beyond Bolted-On Screen Readers* (Zenodo [`DOI: 10.5281/zenodo.24393275`](https://doi.org))  
+> **🪞 Meta-Irony Note:** The companion markdown files (`docs/why-structured-guardrails-matter-even-with-synthetic-voices.md` and `tiles/bill-nye-phonetics-and-guardrails-explainer.md`) are currently text-only as we explore warm, embodied narration without AI flattery.
 
-# 🎙️ Non-Dual Audio Preprint Studio — Spoken-Word Synthesis, Phonetic Guardrails & Anti-Sycophancy Linter
+# 🎙️ Non-Dual Audio Preprint Studio
 
-**An open, zero-dependency audio-essay studio and deterministic script linter built to translate written research preprints into thoughtful, two-speaker spoken dialogue for blind and low-vision listeners.**
+An open, zero-dependency audio-essay studio and deterministic script linter translating written research preprints into two-speaker dialogue for accessible listening. Features Unicode phonetic locking, a zero-flattery linting engine, and structured multi-register voice balancing.
 
 ## 🙏 Gratitude & Lineage
 
-Special thanks to **Flyxion (`@standardgalactic`)** for pioneering the research-projection direction and building technology that made it possible to observe, study, and systematically address spoken-word AI failure modes.
+Special thanks to **Flyxion (`@standardgalactic`)** for pioneering research-projection directions and addressing spoken-word AI failure modes like phonetic drift and sycophantic ego-inflation.
 
-## 🎯 Overview
+## 📖 Companion Analytical Notes (Text-Only)
 
-This repository provides zero-dependency audio guardrails, deterministic phonetic locking, an anti-sycophancy linter to filter flattery and enforce limitations, and an accessible dual-voice script player.
+* **Analytical Note:** `docs/why-structured-guardrails-matter-even-with-synthetic-voices.md`
+* **Plain-Language Explainer:** `tiles/bill-nye-phonetics-and-guardrails-explainer.md`
 
-* **Target Preprint:** Hedling, B. S. (2026). *Beyond Bolted-On Screen Readers*. Zenodo. https://doi.org
-* **Author & License:** Borealis Serenity Hedling • MIT License.
+## 🛡️ Deterministic Guardrails
+
+1. **Unicode Phonetic Lock (`src/phonetic-guard.js`):** Normalizes terms (e.g., `Flyxion` $\to$ `FLIK-shun`, `rasa-darśan` $\to$ `RAH-sah DAR-shahn`) prior to playback.
+2. **Zero-Flattery Linter (`src/anti-sycophancy-linter.js`):** Blocks empty praise terms and requires at least two explicit analytical limitations.
+3. **Six-Register Structural Alternation:** Balances grounded sensory ecology (Speaker A) with critical evaluation of environmental barriers (Speaker B).
+
+## 📚 Proven Repositories & Projects for Embodied Readings
+
+* **LibriVox Open-Domain Human Audiobooks:** [://github.com](https://://github.com) — Human narration benchmark for warmth and cadence.
+* **Piper Fast Local Neural TTS:** [://github.com](https://://github.com) — Offline neural text-to-speech for ARM64/Linux.
+* **Coqui TTS:** [://github.com](https://://github.com) — Expressive deep-learning speech synthesis toolkit.
+* **Thorium Reader:** [://github.com](https://://github.com) — Accessible EPUB/audiobook desktop reader with screen-reader and Braille support.
+* **Narrator / EPUB to Audiobook:** [://github.com](https://://github.com) — Chapter-by-chapter audiobook conversion workflows.
+
+## 📁 Structure & Quickstart
+
+Includes `index.html`, `style.css`, `scripts/zenodo-24393275-dialogue.json`, and automated test suites in `test/audio-guardrails.test.mjs`.
+
+```bash
+node --test test/audio-guardrails.test.mjs
+python3 -m http.server 8089 --bind 127.0.0.1
+```
