@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Non-Dual Audio Preprint Studio — DOI: 10.5281/zenodo.24393275</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="studio-column">
+    <header>
+      <h1>🎙️ Non-Dual Audio Preprint Studio</h1>
+      <div class="doi-line">Target Preprint: <code>DOI: 10.5281/zenodo.24393275</code></div>
+      <div id="lint-badge" class="lint-badge">Checking Guardrails…</div>
+    </header>
+
+    <div class="transport-bar" role="region" aria-label="Audio Essay Playback Controls">
+      <button id="btn-play" type="button" class="primary-btn">▶ Play Two-Speaker Essay</button>
+      <button id="btn-stop" type="button">⏹ Stop</button>
+      <button id="btn-bed" type="button">🌊 Stillness Bed: OFF</button>
+    </div>
+
+    <div id="studio-status" class="status-line" role="status" aria-live="polite">Ready.</div>
+
+    <section class="subtitle-chamber" aria-label="Active Spoken Subtitle">
+      <div id="live-subtitle" aria-live="polite">
+        Press “Play Two-Speaker Essay” to listen to the six-register analytical dialogue, or read the full transcript below.
+      </div>
+    </section>
+
+    <section class="limitations-box" aria-label="Explicit Limitations Quota">
+      <h2>Explicit Limitations Stated in This Episode</h2>
+      <ul id="limitations-list"></ul>
+    </section>
+
+    <section aria-label="Full Spoken-Word Transcript">
+      <h2>Full Two-Speaker Transcript</h2>
+      <div id="transcript-list" class="transcript-list"></div>
+    </section>
+
+    <footer class="provenance-footer">
+      <p>
+        Inspired by research-projection experiments pioneered by <strong>Flyxion (<code>@standardgalactic</code>)</strong>.
+        Built with phonetic locks (<code>src/phonetic-guard.js</code>) and zero-flattery linting (<code>src/anti-sycophancy-linter.js</code>).
+      </p>
+    </footer>
+  </main>
+
+  <script type="module" src="src/essay-player-app.js"></script>
+</body>
+</html>
