@@ -1,0 +1,10 @@
+{
+  "name": "nondual-audio-preprint-studio",
+  "version": "1.0.0",
+  "description": "Zero-dependency spoken-word preprint studio with phonetic locks, anti-sycophancy linting, and six-register dialogue playback.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/audio-guardrails.test.mjs"
+  },
+  "license": "MIT"
+}
