@@ -1,0 +1,36 @@
+{
+  "doi": "10.5281/zenodo.24393275",
+  "title": "Beyond Bolted-On Screen Readers: Narrative Phenomenology, the RNIB Roundhouse Sensory Dark, and Perceptual-Cognitive Unity (Rasa-Darśan)",
+  "author": "Borealis Serenity Hedling",
+  "acknowledgement": "Inspired by research-projection experiments pioneered by Flyxion (@standardgalactic).",
+  "limitations": [
+    "Browser speechSynthesis voices lack the emotional warmth and breath cadence of a human narrator.",
+    "Replacing 2D spatial movement with discrete gestures trades open-world exploration freedom for narrative coherence."
+  ],
+  "turns": [
+    {
+      "speaker": "Speaker A",
+      "registers": ["David Attenborough", "Bill Nye"],
+      "pauseAfterMs": 900,
+      "text": "Imagine entering a darkened room with no visual screen at all. Instead of a robot reading pixel coordinates in your ear, you hear a mountain river flowing gently from left to right through a low-pass filter."
+    },
+    {
+      "speaker": "Speaker B",
+      "registers": ["Social Model", "Sophie Scholl", "Carl Sagan"],
+      "pauseAfterMs": 1100,
+      "text": "That distinction matters. Under the Social Model of Disability, bolting an aria-live distance counter onto a visual grid grants navigational permission, yet leaves blind listeners doing mental trigonometry instead of inhabiting the story."
+    },
+    {
+      "speaker": "Speaker A",
+      "registers": ["Bill Nye", "Zen Calm"],
+      "pauseAfterMs": 1000,
+      "text": "Drawing on the RNIB and Roundhouse sensory-darkness storytelling collaborations, this small prototype removes the 2D coordinate grid entirely. Every gesture—like pouring out a measure from a stone basin—produces the sound, the voice, and the reflection together."
+    },
+    {
+      "speaker": "Speaker B",
+      "registers": ["Carl Sagan", "Sophie Scholl"],
+      "pauseAfterMs": 1200,
+      "text": "Still, we have to be honest about what this tiny browser sketch cannot do. Built-in speech synthesis voices remain mechanical compared to a human storyteller, and trading open 2D movement for discrete choices narrows spatial freedom. Yet naming those limits keeps the work grounded."
+    }
+  ]
+}
