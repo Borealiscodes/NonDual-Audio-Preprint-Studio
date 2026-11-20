@@ -1,3 +1,9 @@
+# Academic and Audio Experiments
+
+Hedling, B. S. (2026). From Robotic Screen-Reader Telemetry to Embodied Neural Cadence: A Narrative & Empirical Chronicle of Guardrails, CLI Flag Literalism, and Dual-Voice VITS Synthesis Under Edge Constraints. Zenodo. https://doi.org/10.5281/zenodo.24399123
+
+---
+
 > ### ✅ RELEASE v1.0.0 — SPOKEN-WORD PREPRINT STUDIO & ANTI-SYCOPHANCY LINTER (EXPERIMENTAL)
 > **Status:** `v1.0.0` Verified Guardrails • ARM64 / Termux Ready  
 > **Primary Target Preprint:** Hedling, B. S. (2026). *Beyond Bolted-On Screen Readers* (Zenodo [`DOI: 10.5281/zenodo.24393275`](https://doi.org))  
